@@ -4,3 +4,4 @@ Git is free software.
 add 1 
 add 2 
 add 3
+Creating a new branch is quick & simple.
