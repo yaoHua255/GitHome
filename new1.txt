@@ -1,6 +1,5 @@
-Git is a version control system.
-1234567
-Git is free software.
-add 1 
-add 2 
-add 3
+$ g$ git checkout master
+Switched to branch 'master'$ git checkout master
+Switched to branch 'master'$ git checkout master
+Switched to branch 'master'it checkout master
+Switched to branch 'master'
