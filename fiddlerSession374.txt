@@ -20,14 +20,14 @@ Content-Length: 18045
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>搜狗输入法</title>
+<title>锟窖癸拷锟斤拷锟诫法</title>
 <meta http-equiv="Content-Type" content="text/html;charset=gb2312" />
 <script type="text/javascript">
 window.onload = function(){
 	var img = document.createElement("IMG");
 	var uid = getCookie("YYID");
 	var hids= document.getElementsByTagName("hid");
-//新词解读
+//锟铰词斤拷锟�
 	var pingid=hids[0].id;
 	var pingid2="";
 	if(hids.length>1)
@@ -91,72 +91,12 @@ body{margin:0px;padding:0px;border-width:0px;overflow:hidden;font-size:12px;over
 .Right{float:right;}
 .clear{clear:both;}
 
-#preview{width:302px;height:291px;background:#F0F7FD;z-index:100;padding:0px;margin:0px;color:#31312F;border-width:0px; overflow:hidden; font-size:12px; display:block;background:url(http://tc.dl.pinyin.sogoucdn.com/skins/upload_images/xinci_zhong_2015_new_style2.png) -48px -78px no-repeat;}
-#pre_header{height:35px;display:block;overflow:hidden;border:0px;padding:0px;margin:0px;font-family:"宋体";cursor:default;}
-#newword_jd{height:105px;display:block;overflow:hidden;border:0px;padding:0px;margin:0px;font-family:"宋体";cursor:default;margin-left:3px;margin-top:0px;}
-#bn_newword{height:74px;display:block;overflow:hidden;border:0px;padding:0px;margin:0px;font-family:"宋体";cursor:default;margin-left:6px;margin-top:1px;}
-#pre_img{height:72px;width:127px;display:inline;overflow:hidden;border:1px solid #D4DDE3;padding:0px;margin:0px;cursor:default;margin-left:2px;float:left;_margin-left:1px;_margin-top:1px;}
-#pre_content{height:77px;width:160px;display:inline;padding:0px; overflow:hidden;color:#9AACB7;text-align:left;border:0px;margin:0px;font-family:"宋体";cursor:default;margin-left:2px;float:left;}
-#pre_footer{height:61px;display:block;overflow:hidden;text-align:left;padding:0px;margin:0px;cursor:default;margin-left:5px;}
-#pre_link{height:47px;display:block;overflow:hidden;padding:0px;margin:0px;cursor:default;margin-top:6px;font-family:"宋体";}
-#pre_miantan{height:15px;display:block;overflow:hidden;padding:0px;margin:0px;cursor:default;margin-top:2px;font-family:"宋体";}
-/*#weather_daily{overflow:hidden;position:absolute;margin-left:55px; font-family:"宋体";color:#93A8BB;width:160px;height:15px;text-align:right;}*/
-#weather_daily{overflow:hidden;margin-right:5px; font-family:"宋体";color:#93A8BB;width:160px;height:15px;text-align:right;float:right;}
-#weather_daily image{height:15px;display:inline;overflow:hidden;float:right;width:15px;border:0px;margin:0px;padding:0px}
-#weather_daily div{display:inline;margin-top:2px;margin-left:2px;overflow:hidden;float:right;}
 
-.cls_font{width:12px;height:12px;overflow:hidden;position:absolute;top:10px;left:281px;cursor:pointer;color:#B7CCDC;font-weight:bold;}
-.cls_nor{width:9px;height:9px;background:url('http://tc.dl.pinyin.sogoucdn.com/skins/upload_images/xinci_zhong_2015_new_style2.png') -480px -278px; overflow:hidden;position:absolute;top:10px;left:283px;cursor:pointer;}
-.cls_hover{width:9px;height:9px;background:url('http://tc.dl.pinyin.sogoucdn.com/skins/upload_images/xinci_zhong_2015_new_style2.png') -491px -278px; overflow:hidden;position:absolute;top:10px;left:283px;cursor:pointer;}
-.cls_down{width:9px;height:9px;background:url('http://tc.dl.pinyin.sogoucdn.com/skins/upload_images/xinci_zhong_2015_new_style2.png') -502px -278px; overflow:hidden;position:absolute;top:10px;left:283px;cursor:pointer;}
-#logo{width:31px;height:31px;background:url('http://tc.dl.pinyin.sogoucdn.com/skins/upload_images/xinci_logo_2015_new_style.png') -6px -115px; margin-left:2px;margin-top:1px;float:left;display:inline;overflow:hidden;}
-/*#title1{width:135px;font-size:15px;color:#5194D2;margin-left:5px;margin-top:4px;float:left;display:inline;overflow:hidden;font-family:"微软雅黑";}*/
-#title1{width:135px;font-size:15px;color:#222222;margin-left:5px;margin-top:5px;float:left;display:inline;overflow:hidden;font-family:"微软雅黑";}
-#title2{width:135px;font-size:12px;color:#598096;margin-left:5px;margin-top:3px;float:left;display:inline;overflow:hidden;}
-
-#miantan_img{width:11px;height:11px;background:url('http://tc.dl.pinyin.sogoucdn.com/skins/upload_images/xinci_zhong_2015_new_style2.png') -462px -127px no-repeat;margin-left:8px;display:inline;overflow:hidden;}
-#mt_font{height:12px;display:inline;margin-left:3px;font-family:"宋体";color:#92A7B7;font-size:12px;overflow:hidden;}
-#footer_img{width:74px;height:58px;display:inline;overflow:hidden;margin-left:4px;}
-#footer_img3{width:58px;height:59px;display:inline;overflow:hidden;margin-left:4px;}
-#footer_content{width:95px;height:58px;display:inline;overflow:hidden;position:absolute;top:245px;_top:4px;left:83px;_left:83px;font-family:"宋体";}
-#footer_content2{width:180px;height:58px;display:inline;overflow:hidden;margin-left:5px;margin-top:0px;font-family:"宋体";}
-#footer_content3{width:121px;height:58px;display:inline;overflow:hidden;position:absolute;top:245px;_top:4px;left:67px;_left:67px;font-family:"宋体";}
-.ft_con1_1{width:100px;font-size:12px;display:block;_margin-top:5px;}
-.ft_con1_2{width:100px;font-size:12px;display:block;margin:5px 0px 0px 0px;}
-.ft_con1_3{width:100px;font-size:12px;display:block;margin:5px 0px 0px 0px;}
-.ft_con2_1{position:absolute;top:249px;_top:4px;left:4px;_left:0px;font-size:12px;}
-.ft_con2_2{position:absolute;top:267px;_top:22px;left:4px;_left:0px;font-size:12px;}
-.ft_con2_3{position:absolute;top:285px;_top:40px;left:4px;_left:0px;font-size:12px;}
-.ft_hr{width:177px;height:5px;margin-left:5px;line-height:1px;font-size:0px;border-top:1px solid #D7E3EA;}
-
-.ft_con3_1{width:120px;font-size:12px;display:block;_margin-top:5px;}
-.ft_con3_2{width:120px;font-size:12px;display:block;margin:5px 0px 0px 0px;}
-.ft_con3_3{width:120px;font-size:12px;display:block;margin:5px 0px 0px 0px;}
-
-#pre_content a{color:#2EA2E6;}
-#pre_footer a{color:#7FAECB;text-decoration:none;}
-#pre_footer a:hover{text-decoration:underline;}
-#footer_content2 a{color:#7FAECB;text-decoration:underline;}
-#footer_content2 a:hover{text-decoration:underline;}
-#footer_content3 a{text-decoration:underline;}
-#pre_miantan a{color:#4298C9;}
-iframe{width:123px;height:71px;border:0px solid #BDD5E9;margin:0px;padding:0px;margin-top:2px;margin-left:2px;_margin-left:1px;_margin-top:1px;}
-#downloading{display:none;width:182px;height:96px;overflow:hidden;position:absolute;background-color:#a4abb1; top:30px; left:0px;z-index:100;filter:alpha(opacity=60);}
-#downloading_2{display:none;position:absolute;top:14px;z-index:1000;left:14px;overflow:hidden;}
-#error_close{position:relative;left:121px;top:5px;border:0px;height:8px;width:8px;cursor:pointer;}
-
-#nw_img{height:72px;width:127px;display:inline;overflow:hidden;border:1px solid #D4DDE3;padding:0px;margin:0px;cursor:default;margin-left:5px;float:left;}
-#nw_word{height:77px;width:160px;display:inline;padding:0px; overflow:hidden;color:#6F7D87;text-align:left;border:0px;margin:0px;font-family:"宋体";cursor:default;margin-left:1px;float:left;margin-top:0px;}
-#nw_word a{text-decoration:none;}
-#nw_img img{height:68px;width:123px;display:inline;overflow:hidden;border:0px;margin-top:2px;margin-left:2px;_margin-top:1px;_margin-left:1px;}
-
-#link_img{height:43px;width:43px;display:inline;overflow:hidden;border:0px solid #D4DDE3;padding:0px;margin:0px;cursor:default;margin-left:0px;float:left;}
-#link_img img{height:43px;width:43px;display:inline;overflow:hidden;border:0px;}
 
 </style>
 <script type="text/javascript">
 
-//调用子页面的关闭事件
+//锟斤拷锟斤拷锟斤拷页锟斤拷墓乇锟斤拷录锟�
 /*
    function install_finish(){
    window.frames['adframe'].install_finish();
@@ -244,23 +184,23 @@ function install_finish(){
 <body scroll="no">
 <div id="preview">
 <div id="pre_header">
-<div class="cls_font" onclick="window.close();">×</div>
+<div class="cls_font" onclick="window.close();">锟斤拷</div>
 <!--div class="cls_nor" onmouseover="this.className='cls_hover';" onmouseout="this.className='cls_nor';" onmousedown="this.className='cls_down';" onclick="window.close();"></div-->
 <span id="logo"></span>
-<span id="title1">搜狗今日新词</span>
+<span id="title1">锟窖癸拷锟斤拷锟斤拷锟铰达拷</span>
 </div>
 
 
 <div id="newword_jd">
 <div style="width:295px;height:26px;">
-                <span style="font-family:'Microsoft Yahei';width:295px;display:block;font-size:16px;margin-top:0px;text-align:center;font-weight:bold;"><a target="_blank" style="color:#004879;text-decoration:none;" onclick="pingback('site98','0627%E5%93%84%E7%94%B7%E5%8F%8B%E9%A2%98')"  href="https://mp.weixin.qq.com/s/gNaLG3Y68KrgJYAdNr27Cg"  onmouseover="mousehover(this);" onmouseout="mouseout(this,'2EA2E6')">如何用表情包挽留男朋友</a></span>
+                <span style="font-family:'Microsoft Yahei';width:295px;display:block;font-size:16px;margin-top:0px;text-align:center;font-weight:bold;"><a target="_blank" style="color:#004879;text-decoration:none;" onclick="pingback('site98','0627%E5%93%84%E7%94%B7%E5%8F%8B%E9%A2%98')"  href="https://mp.weixin.qq.com/s/gNaLG3Y68KrgJYAdNr27Cg"  onmouseover="mousehover(this);" onmouseout="mouseout(this,'2EA2E6')">锟斤拷锟斤拷帽锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷</a></span>
         </div>
         <div id="nw_img">
         <a style="text-decoration:none;" target="_blank" onclick="pingback('site2','0627%E5%93%84%E7%94%B7%E5%8F%8B%E5%9B%BE')"  href="https://mp.weixin.qq.com/s/gNaLG3Y68KrgJYAdNr27Cg"><img  src="http://tc.dl.pinyin.sogoucdn.com/skins/upload_images/202006271635215ef704c93ca4f.jpg" style="border:0px;" /></a>
         </div>
         <div id="nw_word">
-                <span style="width:150px;margin-left:8px;margin-top:3px;display:block;line-height:18px;"><a target="_blank" style="color:#5B6B78;text-decoration:none;" onclick="pingback('site4','0627%E5%93%84%E7%94%B7%E5%8F%8B%E6%96%87')"  href="https://mp.weixin.qq.com/s/gNaLG3Y68KrgJYAdNr27Cg">在感情中，作为“小作精”的女生也要挽回男生，这套表情包挽留男朋友，包你一哄一个准…</a>
- <a target="_blank" style="color:#2EA2E6;" onclick="pingback('site3','0627%E5%93%84%E7%94%B7%E5%8F%8B%E6%96%87')"  href="https://mp.weixin.qq.com/s/gNaLG3Y68KrgJYAdNr27Cg">[去看看]</a>
+                <span style="width:150px;margin-left:8px;margin-top:3px;display:block;line-height:18px;"><a target="_blank" style="color:#5B6B78;text-decoration:none;" onclick="pingback('site4','0627%E5%93%84%E7%94%B7%E5%8F%8B%E6%96%87')"  href="https://mp.weixin.qq.com/s/gNaLG3Y68KrgJYAdNr27Cg">锟节革拷锟斤拷锟叫ｏ拷锟斤拷为锟斤拷小锟斤拷锟斤拷锟斤拷锟斤拷女锟斤拷也要锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷妆锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟窖ｏ拷锟斤拷锟斤拷一锟斤拷一锟斤拷准锟斤拷</a>
+ <a target="_blank" style="color:#2EA2E6;" onclick="pingback('site3','0627%E5%93%84%E7%94%B7%E5%8F%8B%E6%96%87')"  href="https://mp.weixin.qq.com/s/gNaLG3Y68KrgJYAdNr27Cg">[去锟斤拷锟斤拷]</a>
 </span>
         </div>
 </div>
@@ -270,7 +210,7 @@ function install_finish(){
 		<iframe id="adframe" name="adframe" frameborder="0" scrolling="no" src=http://info.pinyin.sogou.com/ime_push/sgse_ad/sgse_s_all_new.php?d=20200628 ></iframe >
 		</div>
 				<div id="pre_content">
-		<span style="width:170px;margin-top:4px;margin-left:8px;display:block;"><a target="_blank" onclick="pingback('site11','%B5%E7%CA%D3%B9%BA%CE%EF%B9%E3%B8%E6')"  href="https://mp.weixin.qq.com/s/9tkRdHKSCXwfk3IKd6CUxQ">电视购物广告</a>&nbsp;（真的野）</span><span style="width:170px;margin-top:4px;margin-left:8px;display:block;"><a target="_blank" onclick="pingback('site12','%BC%DD%D0%A3%C3%D4%BB%F3%D0%D0%CE%AA')"  href="https://mp.weixin.qq.com/s/mPbhzYi5htCvdjKvBJuGOA">驾校迷惑行为</a>&nbsp;（是你吗）</span><span style="width:170px;margin-top:4px;margin-left:8px;display:block;"><a target="_blank" onclick="pingback('site13','%B8%E6%B0%DD%D3%EF')"  href="https://mp.weixin.qq.com/s/apVSTBw1wNY09n1AbNNFYw">告拜语</a>&nbsp;（江湖再见寄语）</span><span style="width:170px;margin-top:4px;margin-left:8px;display:block;"><a target="_blank" onclick="pingback('site14','%D7%B2%C1%B3%B1%ED%C7%E9%B0%FC')"  href="https://mp.weixin.qq.com/s/z0km_GYnIJPBvBPuN_X_eg">撞脸表情包</a>&nbsp;（剧院艺术）</span>	
+		<span style="width:170px;margin-top:4px;margin-left:8px;display:block;"><a target="_blank" onclick="pingback('site11','%B5%E7%CA%D3%B9%BA%CE%EF%B9%E3%B8%E6')"  href="https://mp.weixin.qq.com/s/9tkRdHKSCXwfk3IKd6CUxQ">锟斤拷锟接癸拷锟斤拷锟斤拷</a>&nbsp;锟斤拷锟斤拷锟揭帮拷锟�</span><span style="width:170px;margin-top:4px;margin-left:8px;display:block;"><a target="_blank" onclick="pingback('site12','%BC%DD%D0%A3%C3%D4%BB%F3%D0%D0%CE%AA')"  href="https://mp.weixin.qq.com/s/mPbhzYi5htCvdjKvBJuGOA">锟斤拷校锟皆伙拷锟斤拷为</a>&nbsp;锟斤拷锟斤拷锟斤拷锟斤拷</span><span style="width:170px;margin-top:4px;margin-left:8px;display:block;"><a target="_blank" onclick="pingback('site13','%B8%E6%B0%DD%D3%EF')"  href="https://mp.weixin.qq.com/s/apVSTBw1wNY09n1AbNNFYw">锟斤拷锟斤拷锟�</a>&nbsp;锟斤拷锟斤拷锟斤拷锟劫硷拷锟斤拷锟斤）</span><span style="width:170px;margin-top:4px;margin-left:8px;display:block;"><a target="_blank" onclick="pingback('site14','%D7%B2%C1%B3%B1%ED%C7%E9%B0%FC')"  href="https://mp.weixin.qq.com/s/z0km_GYnIJPBvBPuN_X_eg">撞锟斤拷锟斤拷锟斤拷锟�</a>&nbsp;锟斤拷锟斤拷院锟斤拷锟斤拷锟斤拷</span>	
 		</div>
 </div>
 <div id="pre_link">
@@ -280,24 +220,24 @@ function install_finish(){
         </div>
 <div id="link_1"><span style="width:240px;font-size:12px;display:inline;line-height:15px;margin-top:4px;">
 
-<a style="text-decoration:none;" target="_blank" onclick="pingback('site21','0628%D7%D6%C3%BD%CC%E5%C8%A4%B6%C1')"  href="https://mp.weixin.qq.com/s/HnEBSihQST7UEFrJcnB6vw"><span style="color:#2EA2E6;">【趣读】</span>
-<span style='color:#5B6B78;margin-left:-6px;'>你用成语装×的样子真是太骚了</span></a>
+<a style="text-decoration:none;" target="_blank" onclick="pingback('site21','0628%D7%D6%C3%BD%CC%E5%C8%A4%B6%C1')"  href="https://mp.weixin.qq.com/s/HnEBSihQST7UEFrJcnB6vw"><span style="color:#2EA2E6;">锟斤拷趣锟斤拷锟斤拷</span>
+<span style='color:#5B6B78;margin-left:-6px;'>锟斤拷锟矫筹拷锟斤拷装锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷太骚锟斤拷</span></a>
 </span></div>
 
 <hid id="20200627162437" style="display:none;"></hid><div id="link_2"><span style="width:220px;font-size:12px;display:inline;margin-top:3px;_margin-top:6px;color:#2EA2E6;line-height:15px;">
 
-<a style="text-decoration:none;" target="_blank" onclick="pingback('site22','0628%C3%BF%C8%D5%D2%BB%D0%A6')"  href="http://haha.sogou.com/6661019/"><span style="color:#2EA2E6;">【知识点】</span>
-<span style='color:#5B6B78;margin-left:-6px;'>这些甲骨文画的真的太像了</span></a>
+<a style="text-decoration:none;" target="_blank" onclick="pingback('site22','0628%C3%BF%C8%D5%D2%BB%D0%A6')"  href="http://haha.sogou.com/6661019/"><span style="color:#2EA2E6;">锟斤拷知识锟姐】</span>
+<span style='color:#5B6B78;margin-left:-6px;'>锟斤拷些锟阶癸拷锟侥伙拷锟斤拷锟斤拷锟教拷锟斤拷锟�</span></a>
 </span></div>
 </div>
 <hid id="20200627163257" style="display:none;"></hid>
 </div>
 <div id="pre_miantan">
-<div id="miantan_img" onclick="miantan_click()">&nbsp;&nbsp;&nbsp;</div><div id="mt_font" onclick="miantan_click()">不再提示</div>
+<div id="miantan_img" onclick="miantan_click()">&nbsp;&nbsp;&nbsp;</div><div id="mt_font" onclick="miantan_click()">锟斤拷锟斤拷锟斤拷示</div>
 <div id="weather_daily">
 </div>
 <input type="text" style="display:none;" value="0" id="hd_mt" />
-<span style="width:45px;position:absolute;left:255px;top:210px;_top:0px;display:block;display:none;"><a target="_blank" onclick="pingback('site10','more')"  style="text-decoration:none;" href="http://pinyin.sogou.com/dict/push_dict/geturl.php?p=35350102">更多>></a></span></div>
+<span style="width:45px;position:absolute;left:255px;top:210px;_top:0px;display:block;display:none;"><a target="_blank" onclick="pingback('site10','more')"  style="text-decoration:none;" href="http://pinyin.sogou.com/dict/push_dict/geturl.php?p=35350102">锟斤拷锟斤拷>></a></span></div>
 <div id="downloading">
 </div>
 <div id="downloading_2">
